@@ -2,7 +2,7 @@
 
 namespace App\Services;
 
-use App\Exceptions\AdminUpdateException;
+use App\Exceptions\AdminDeletionException;
 use App\Models\User;
 use App\Services\Contracts\UserServiceInterface;
 use Illuminate\Contracts\Pagination\Paginator;
